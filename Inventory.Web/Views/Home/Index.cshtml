@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Inventory.InventoryItemListDto>
+﻿@model IEnumerable<InventoryItemListDto>
 @{
     ViewData["Title"] = "Home Page";
 
@@ -8,8 +8,8 @@
 
 <ul>
     @foreach (var inventoryItemListDto in Model)
-    {
-        <li>@Html.ActionLink("Name: " + inventoryItemListDto.Name, "Details", new { Id = inventoryItemListDto.Id })</li>
-    }
+{
+    <li>@Html.ActionLink("Name: " + inventoryItemListDto.Name, "Details", new { Id = inventoryItemListDto.Id })</li>
+}
 </ul>
 @Html.ActionLink("Add", "Add")

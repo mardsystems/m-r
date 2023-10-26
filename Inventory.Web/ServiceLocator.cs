@@ -1,8 +1,9 @@
-﻿namespace Inventory
+﻿using Inventory.Bus;
+
+namespace Inventory;
+
+public static class ServiceLocator
 {
-    public static class ServiceLocator
-    {
-        public static FakeBus Bus { get; set; }
-       
-    }
+    public static FakeBus Bus { get; set; }
+   
 }
