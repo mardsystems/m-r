@@ -1,6 +1,4 @@
-﻿using SimpleCQRS;
-
-namespace CQRSGui
+﻿namespace Inventory
 {
     public static class ServiceLocator
     {

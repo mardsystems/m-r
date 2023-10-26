@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace SimpleCQRS
+namespace Inventory
 {
     public class FakeBus : ICommandSender, IEventPublisher
     {

@@ -1,6 +1,4 @@
-using CQRSGui;
-using Microsoft.AspNetCore.Builder;
-using SimpleCQRS;
+using Inventory;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,4 +1,4 @@
-namespace CQRSGui.Models;
+namespace Inventory.Models;
 
 public class ErrorViewModel
 {

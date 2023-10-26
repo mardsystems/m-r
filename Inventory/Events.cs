@@ -1,5 +1,5 @@
 using System;
-namespace SimpleCQRS
+namespace Inventory
 {
     public class Event : Message
     {

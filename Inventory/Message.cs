@@ -1,5 +1,4 @@
-using System;
-namespace SimpleCQRS
+namespace Inventory
 {
     public interface Message
     {

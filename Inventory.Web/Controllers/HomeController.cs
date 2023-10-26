@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SimpleCQRS;
 
-namespace CQRSGui.Controllers
+namespace Inventory.Controllers
 {
     public class HomeController : Controller
     {
